@@ -1,0 +1,243 @@
+.container{
+    /*  */
+    
+}
+
+#menu{
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+#menu li a{
+  text-decoration: none;
+  position: relative;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 14px 30px;
+  text-transform: uppercase;
+}
+
+#menu:hover{
+    color:red;
+}
+
+#menu li a:before{
+  content: '';
+  width: 60px;
+  position: absolute;
+  border-bottom: 8px solid #313131;
+  bottom: 0;
+  right: 350px;
+  transition: 0.5s all;
+}
+
+#menu li a:hover:before{
+  right: 0;
+}
+
+.header {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 0%;
+}
+.content {
+    
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 0%;
+}
+
+body {
+    background-color:#E5E5E4;
+}
+
+.avi {
+    width: 120px;
+    height: 120px;
+}
+
+.moving-text {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+.verse {
+    padding-top: 9px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 8px;
+}
+
+.verse-source {
+    font-size: 10px;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    display: inline;
+    font-size: 15px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+hr {
+   
+    width: 200px;
+    height: 2px;
+    margin: 2;
+    
+}
+
+li {
+    display: inline;
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    
+}
+
+.hi {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.wavinghand {
+
+    padding: 20px;
+  
+    position: relative;
+    top: 80%;
+    left: 55%;
+  
+    margin: -10px 0 0 -70px;
+  
+}
+
+.wavinghand:hover {
+
+
+ 
+    padding: 20px;
+  
+    position: relative;
+    top: 80%;
+    left: 55%;
+  
+    margin: -10px 0 0 -70px;
+  
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  -webkit-animation: wink 0.5s alternate infinite; /* Safari 4+ */
+    -moz-animation:    wink 0.5s alternate infinite; /* Fx 5+ */
+    -o-animation:      wink 0.5s alternate infinite; /* Opera 12+ */
+    animation:         wink 0.5s alternate infinite; /* IE 10+, Fx 29+ */
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+  animation-timing-function: ease;
+  
+  
+  
+        
+  
+  }
+  /* Chrome, Safari, Opera */ 
+@-webkit-keyframes wink {
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+
+}
+
+  
+
+
+
+100% {-webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);}
+    
+    
+    
+   
+    
+}
+
+.love {
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Karla', sans-serif;
+}
+
+.click {
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.socials {
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.unhidden {
+   padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
