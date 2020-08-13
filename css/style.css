@@ -34,10 +34,10 @@
   content: '';
   width: 60px;
   position: absolute;
-  border-bottom: 8px solid #313131;
+  border-bottom: 8px solid red;
   bottom: 0;
   right: 350px;
-  transition: 0.7s all;
+  transition: 0.2s all;
 }
 
 #menu_bar li a:hover:before{
@@ -218,6 +218,10 @@ p {
   }
 }
 
+div {
+  text-align: center;
+}
+
 /* Scroll down Start */
 .container2 {
   position: relative;
@@ -228,6 +232,7 @@ p {
 
 .chevron {
   position: absolute;
+  text-align: center;
   margin-top: 80px;
   margin-left: 680px;
   width: 28px;
@@ -236,6 +241,7 @@ p {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
+
 
 .chevron:first-child {
   animation: move 3s ease-out 1s infinite;
